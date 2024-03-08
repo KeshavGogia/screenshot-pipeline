@@ -43,6 +43,6 @@ function areScreenshotsEqual(screenshot1, screenshot2) {
 checkForChangesAndCapture();
 
 // Schedule to run the function periodically (e.g., every 1 hour)
-setInterval(checkForChangesAndCapture, 360); 
+setInterval(checkForChangesAndCapture, 3600000); 
 
 module.exports = { checkForChangesAndCapture };
