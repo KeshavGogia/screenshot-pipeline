@@ -28,7 +28,7 @@ async function checkForChangesAndCapture() {
   
   if (previousScreenshot !== null && !areScreenshotsEqual(previousScreenshot, currentScreenshot)) {
     await updateReadme(currentScreenshot);
-    exec('git add . && git commit -m "Update screenshot" && git push');
+    exec('git add . && git commit -m "Updated screenshot" && git push');
   }
 
   previousScreenshot = currentScreenshot;
