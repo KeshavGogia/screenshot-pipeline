@@ -2,7 +2,7 @@ const fs = require('fs');
 const puppeteer = require('puppeteer');
 const { exec } = require('child_process');
 
-const websiteUrl = 'https://example.com';
+const websiteUrl = 'https://keshav-portfolio.onrender.com';
 const readmeFilePath = 'README.md';
 const screenshotFilePath = 'screenshot.png';
 
