@@ -21,7 +21,7 @@ const { exec } = require('child_process');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const websiteUrl = 'https://chat.openai.com';
+const websiteUrl = 'https://google.com';
 const readmeFilePath = 'README.md';
 const screenshotFilePath = 'screenshot.png';
 
